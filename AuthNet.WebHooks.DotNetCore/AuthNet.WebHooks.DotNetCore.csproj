@@ -1,0 +1,23 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <Version>1.0.0.0-beta</Version>
+    <PackageId>AuthNet.WebHooks.DotNetCore</PackageId>
+    <PackageProjectUrl>https://github.com/mccinnovations/AuthNet.WebHooks</PackageProjectUrl>
+    <PackageTags>Authorize.Net WebHooks Wrapper</PackageTags>
+    <Authors>dns12345</Authors>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+    <DocumentationFile>bin\Release\netstandard2.0\AuthNet.WebHooks.DotNetCore.xml</DocumentationFile>
+    <OutputPath></OutputPath>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="RestSharp" Version="106.6.10" />
+  </ItemGroup>
+
+</Project>

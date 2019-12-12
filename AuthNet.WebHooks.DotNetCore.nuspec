@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>AuthNet.WebHooks.DotNetCore</id>
+    <version>1.0.0-beta</version>
+    <title>AuthNet.WebHooks.DotNetCore</title>
+    <authors>dns12345</authors>
+    <owners>dns12345</owners>
+    <projectUrl>https://github.com/mccinnovations/AuthNet.WebHooks</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>C# .NetStandard 2.0 wrapper around the Authorize.Net WebHooks API</description>
+    <summary>C# wrapper around the Authorize.Net WebHooks API</summary>
+    <tags>Authorize.Net WebHooks Wrapper</tags>
+  </metadata>
+  <files>
+    <file src="AuthNet.WebHooks.DotNetCore\bin\Release\netstandard2.0\AuthNet.WebHooks.DotNetCore.dll" target="lib\AuthNet.WebHooks.DotNetCore.dll" />
+    <file src="AuthNet.WebHooks.DotNetCore\bin\Release\netstandard2.0\AuthNet.WebHooks.DotNetCore.xml" target="lib\AuthNet.WebHooks.DotNetCore.xml" />
+  </files>
+</package>

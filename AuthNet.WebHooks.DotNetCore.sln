@@ -1,11 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.25420.1
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29519.181
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AuthNet.WebHooks", "AuthNet.WebHooks\AuthNet.WebHooks.csproj", "{D6D262E7-58DC-46C6-9DD6-734F69BAE978}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AuthNet.WebHooks.DotNetCore", "AuthNet.WebHooks.DotNetCore\AuthNet.WebHooks.DotNetCore.csproj", "{D6D262E7-58DC-46C6-9DD6-734F69BAE978}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AuthNet.WebHooks.Tests", "AuthNet.WebHooks.Tests\AuthNet.WebHooks.Tests.csproj", "{7BE8EA74-F47B-4FD3-8B21-FCEC3FA52849}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AuthNet.WebHooks.DotNetCore.Tests", "AuthNet.WebHooks.DotNetCore.Tests\AuthNet.WebHooks.DotNetCore.Tests.csproj", "{7BE8EA74-F47B-4FD3-8B21-FCEC3FA52849}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -24,5 +24,8 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BC4242D3-C523-4B3B-94AE-FD59CD258D7F}
 	EndGlobalSection
 EndGlobal
