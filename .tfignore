@@ -2,6 +2,7 @@
 # If needed, prefix 'packages' with additional folder names if it's
 # not in the same folder as .tfignore.
 .vs/
+.git/
 .vscode/
 packages
 node_modules/
